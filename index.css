@@ -199,7 +199,7 @@ section, aside {
 .faq-section-form p {
     font-weight: bold;
     max-width: 85%;
-    margin: 0 auto 2rem;
+    margin: 1rem auto 1rem;
 }
 
 .faq-section-form div {
@@ -222,6 +222,11 @@ section, aside {
     background-color: #ff1a1a;
     color: white;
     border: none;
+}
+
+.btn-icon {
+    font-size: 135%;
+    padding-left: 5px;
 }
 
 .more-info {
