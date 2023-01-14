@@ -157,3 +157,80 @@ section, aside {
     font-weight: bold;
     margin: 0 auto;
 }
+
+.FAQ-section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.FAQ-section h2 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.faq-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+    padding: 0 25px;
+    border: none;
+    max-width: 80vw;
+    background-color: #222;
+}
+
+.text {
+    font-weight: bold;
+}
+
+.plus {
+    font-weight: bold;
+    font-size: 150%;
+    margin: 0;
+}
+
+.faq-section-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.faq-section-form p {
+    font-weight: bold;
+    max-width: 85%;
+    margin: 0 auto 2rem;
+}
+
+.faq-section-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-section-form input {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0.75rem;
+}
+
+.faq-section-form button {
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    background-color: #ff1a1a;
+    color: white;
+    border: none;
+}
+
+.more-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;   
+    color: #666;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
