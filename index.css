@@ -136,7 +136,24 @@ section, aside {
     margin: 0 auto;
 }
 
+.watch-everywhere {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.watch-everywhere p {
+    width: 80%;
+    font-weight: bold;
+    margin: 0 auto 2rem;
+}
+
 .kids-section {
     padding-top: 3rem;
     padding-bottom: 2rem;
+}
+
+.kids-section p {
+    width: 80%;
+    font-weight: bold;
+    margin: 0 auto;
 }
