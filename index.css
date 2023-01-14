@@ -115,15 +115,8 @@ section, aside {
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    /* padding-top: 3rem; */
     padding-bottom: 3rem;
     border-bottom: 0.3rem solid rgba(255, 255, 255, 0.15);
-}
-
-.stream-platform {
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .stream-platform p {
@@ -132,3 +125,18 @@ section, aside {
     margin: 0 auto;
 }
 
+.ease-of-access {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.ease-of-access p {
+    width: 80%;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.kids-section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
