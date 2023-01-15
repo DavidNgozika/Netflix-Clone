@@ -18,6 +18,12 @@ body {
     width: 7.5rem;
 }
 
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
 .form {
     background-color: black;
     max-width: 95%;
