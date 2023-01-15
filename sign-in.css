@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -99,3 +101,45 @@ p {
     width: 50%;
 }
 
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.4);
+        background-image: url("images/hero-large-2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+    }
+
+    .logo {
+        width: 13rem;
+    }
+
+    .form-elements h2 {
+        padding-top: 6.5rem;
+    }
+
+    .form {
+        max-width: 40%;
+        border: none;
+        border-radius: 5px;
+        padding: 0 3.5rem 10rem;
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+
+    input[type="text"] {
+        margin: 0.65rem 0;
+        font-size: 110%;
+    }
+
+    .footer-content {
+        background-color: rgba(0, 0, 0, 0.75);
+        max-width: 100%;
+        padding: 2rem;
+        bottom: 0;
+        transform: translatey(2.5rem);
+    }
+
+    .footer-details p {
+        width: 25%;
+    }
+}
