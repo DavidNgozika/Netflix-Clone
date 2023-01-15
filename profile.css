@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.large {
+    font-size: 300%;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    width: 7.5rem;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profiles > div {
+    margin: 0 1rem;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.plus p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 2.5rem;
+    font-size: 600%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.profile-btn {
+    display: block;
+    border: 1px solid #666;
+    background-color: transparent;
+    color: #666;
+    padding: 0.5rem 1rem;
+    margin: 2rem auto;
+    width: 250px;
+}
