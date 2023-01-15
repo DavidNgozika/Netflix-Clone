@@ -5,31 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
+    <link rel="stylesheet" href="sign-in.css">
 </head>
 <body>
     <header>
-        <div>
-            <img src="images/netflix.png" alt="netflix">
+        <div class="logo-container">
+            <img class="logo" src="images/netflix.png" alt="netflix">
         </div>
     </header>
 
     <section>
-        <form action="#">
-            <div>
+        <form class="form">
+            <div class="form-elements">
                 <h2>Sign In</h2>
                 <input type="text" placeholder="Email or phone number">
                 <input type="text" placeholder="Password">
-                <button>Sign In</button>
-                <div>
-                    <div><input type="checkbox">Remember me</div>
+                <button class="form-btn">Sign In</button>
+                <div class="check-par">
+                    <div class="cb-container">
+                        <input type="checkbox" checked>Remember me
+                    </div>
                     <p>Need help?</p>
                 </div>
 
                 <div>
-                    <p>New to Netflix? <span>Sign up now</span>.</p>
+                    <p>
+                        New to Netflix? 
+                        <span class="sign-up-text">Sign up now</span>.
+                    </p>
                     <p>
                         This page is protected by Google reCaptcha to ensure
-                        that you're not a bot. <span>Learn more</span>.
+                        that you're not a bot. 
+                        <span class="learn-more-text">Learn more</span>.
                     </p>
                 </div>
             </div>
@@ -37,22 +44,16 @@
     </section>
 
     <footer>
-        <div>
+        <div class="footer-content">
             <p>Questions? Contact us.</p>
-            <div>
+            <div class="footer-details">
                 <p>FAQ</p>
                 <p>Cookie Preferences</p>
-            </div>
 
-            <div>
                 <p>Help Center</p>
                 <p>Corporate Information</p>
-            </div>
 
-            <div>
                 <p>Terms of Use</p>
-            </div>
-            <div>
                 <p>Privacy</p>
             </div>
         </div>
