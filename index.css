@@ -33,7 +33,6 @@ img {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 button {
@@ -266,6 +265,10 @@ section, aside {
     .FAQ-section h2 {
         width: 100%;
         margin-bottom: 2rem;
+    }
+
+    a {
+        color: white;
     }
 }
 
