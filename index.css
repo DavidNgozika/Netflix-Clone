@@ -1,6 +1,8 @@
 body {
     padding: 0;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
     background-color: black;
 }
 
@@ -59,7 +61,6 @@ button {
     height: 60vh;
     width: 100vw;
     text-align: center;
-    z-index: -1;
     border-bottom: 0.3rem solid rgba(255, 255, 255, 0.15);
 }
 
@@ -229,13 +230,139 @@ section, aside {
     padding-left: 5px;
 }
 
+.input-field {
+    display: flex;
+}
+
 .more-info {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-left: 25%;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;   
     color: #666;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .hero {
+        padding-top: 3rem;
+    }
+
+    h1.main-heading {
+        width: 70%;
+    }
+
+    .form-input {
+        width: 70%;
+    }
+
+    .FAQ-section h2 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar {
+        background-color: transparent;
+        position: absolute;
+        width: 95vw;
+    }
+
+    .sign-in-btn {
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        background-color: #ff1a1a;
+        color: white;
+        border: none;
+        font-size: 85%;
+        margin-right: 1rem;
+    }
+
+    h1.main-heading {
+        width: 40%;
+        margin: 0;
+    }
+
+    .form-input {
+        width: 45%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .form-input input {
+        height: 2.5rem;
+        padding: 0;
+        border: none;
+        border-radius: 1px;
+    }
+    
+    .form-input button {
+        height: 2.5rem;
+        padding: 0;
+        margin-bottom: .78rem;
+        border-radius: 1px;
+    }
+
+    .stream-platform,
+    .watch-everywhere {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+    }
+
+    .description {
+        width: 45%;
+    }
+
+    .ease-of-access,
+    .kids-section {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+    }
+
+    .poster img {
+        width: 25vw;
+    }
+
+    .faq-section-form div {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .faq-section-form input {
+        height: 2.5rem;
+        padding: 0;
+        border: none;
+        border-radius: 1px;
+    }
+
+    .faq-section-form button {
+        height: 2.5rem;
+        padding: 0;
+        margin-bottom: .78rem;
+        border-radius: 1px;
+    }
+
+    .more-info {
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    #footer-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #footer-info div {
+        padding: 0 2rem;
+    }
 }
