@@ -4,6 +4,10 @@ body {
     color: white;
     background-color: #222;
     font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
 }
 
 .navbar {
@@ -73,7 +77,8 @@ body {
 .hero-section {
     display: flex;
     flex-direction: column;
-    height: 55vh;
+    justify-content: space-between;
+    height: 90vh;
     background-image: url("images/MoviePoster (1).jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -86,8 +91,16 @@ body {
     align-items: center;
     justify-content: center;
     width: 80%;
-    margin: 4rem auto 1rem;
+    margin: 4rem auto 0;
+    padding: 0 1rem;
     text-align: center;
+    /* background-color: teal; */
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    /* background-color: maroon; */
 }
 
 .heading {
@@ -129,9 +142,9 @@ body {
     background-color: #f33;
     padding-bottom: 5px;
     color: white;
-    margin-right: 10px;
+    margin-right: 7px;
 }
-
+ 
 .top-ten span {
     font-size: 80%;
     margin: 0;
@@ -140,6 +153,10 @@ body {
 
 .header-description {
     color: #ccc;
+}
+
+button {
+    cursor: pointer;
 }
 
 .hero-btns {
@@ -198,4 +215,33 @@ body {
 h3 {
     margin-left: 1rem;
     margin-bottom: 7px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem;
+    color: #999;
+}
+
+.social {
+    margin-bottom: 1rem;
+}
+
+.social img {
+    width: 40px;
+    margin: 0.25rem;
+}
+
+.options {
+    margin-bottom: 1rem;
+}
+
+.rights button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #fff;
 }
