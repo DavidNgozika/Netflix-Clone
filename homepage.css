@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -15,22 +16,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: maroon;
     max-width: 50%;
 }
 
-.list {
+.nav-list {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    background-color: navy;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     display: none;
 }
 
-.list li {
+.nav-list li {
     padding: 0.5rem 0.75rem;
 }
 
@@ -39,6 +38,7 @@ body {
     align-items: center;
     max-width: 40%;
     padding: 0 0.25rem;
+    display: none;
 }
 
 .logo-container {
@@ -50,4 +50,62 @@ body {
 
 .logo {
     width: 7.5rem;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background-image: url("images/MoviePoster (1).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: brown;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 4rem auto 5rem;
+    text-align: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.heading h1 {
+    margin: 0;
+}
+
+.heading-major {
+    font-weight: 800;
+}
+
+.heading-minor {
+    font-weight: 100;
+}
+
+.play-btn {
+    width: 8rem;
+    height: 2rem;
+}
+
+.play-img {
+    width: 25px;
+    height: 25px;
+}
+
+.hero-imgs {
+    display: flex;
+    justify-self: flex-end;
+    width: 100%;
+    overflow-x: scroll;
 }
