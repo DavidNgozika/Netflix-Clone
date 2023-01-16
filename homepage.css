@@ -142,7 +142,6 @@ body {
     background-color: #f33;
     padding-bottom: 5px;
     color: white;
-    margin-right: 7px;
 }
  
 .top-ten span {
@@ -206,14 +205,23 @@ button {
     font-size: 115%;
 }
 
+.movie-section {
+    margin: 2rem 0;
+}
+
 .collection {
     display: flex;
     width: 100%;
     overflow-x: scroll;
 }
 
+.numbered {
+    display: flex;
+    /* flex-direction: row; */
+}
+
 h3 {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-bottom: 7px;
 }
 
