@@ -40,7 +40,9 @@ body {
 
 .right-nav {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
+    width: 40%;
 }
 
 .search-container {
@@ -61,6 +63,11 @@ body {
 
 #profile-container {
     display: flex;
+}
+
+#profile-container img {
+    width: 40px;
+    height: 40px; 
 }
 
 .logo-container {
@@ -94,13 +101,11 @@ body {
     margin: 4rem auto 0;
     padding: 0 1rem;
     text-align: center;
-    /* background-color: teal; */
 }
 
 .second {
     display: flex;
     flex-direction: column;
-    /* background-color: maroon; */
 }
 
 .heading {
@@ -217,7 +222,6 @@ button {
 
 .numbered {
     display: flex;
-    /* flex-direction: row; */
 }
 
 h3 {
@@ -252,4 +256,68 @@ h3 {
     padding: 0.5rem 1rem;
     border-radius: 5px;
     color: #fff;
+}
+
+@media only screen and (min-width: 600px) {
+    .heading h1 {
+        font-size: 300%;
+    }
+
+    .hero-section {
+        height: 100vh;
+    }
+
+    .right-nav {
+        justify-content: space-evenly;
+    }
+
+    .search-container {
+        display: flex;
+    }
+    
+    .profile-name {
+        display: flex;
+    }
+    
+    .gift-container {
+        display: flex;
+    }
+    
+    .bell-container {
+        display: flex;
+    }
+
+    #profile-container img {
+        width: 20px;
+        height: 17px; 
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .heading h1 {
+        font-size: 400%;
+    }
+
+    .hero-btns {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .right-nav {
+        width: 30%;
+    }
+
+    .first {
+        align-items: flex-start;
+        width: 50%;
+        margin: 4rem auto 0;
+        padding: 0 1rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .right-nav {
+        width: 25%;
+    }
 }
